@@ -1,16 +1,12 @@
 body {
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(rgb(35, 34, 54),black) ;
+    background: linear-gradient(rgb(26, 24, 58),black) ;
     color: white;
 }
 header {
     text-align: center;
     text-shadow: 2px 2px 10px white
-}
-div.suggestion{
-    background: rgb(182, 186, 196);
-    color: black
 }
 h1.main_heading{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,8 +23,32 @@ p.main_subheading {
 table.navigation {
     width: 30% ;
     margin-left: 35% ;
-    margin-right: 35%
+    margin-right: 35%;
 }
 td.navcells {
-    text-align: center
+    text-align: center;
+}
+h2 {
+    text-decoration: underline;
+    font-size: 20px
+}
+p.lyndelldescription {
+    white-space: nowrap ;
+}
+div.forms {
+    border: solid black;
+    width: 17%;
+    margin-top: 10px;
+}
+div.project1 {
+    background: linear-gradient(rgb(51, 3, 83),black);
+    border: solid black;
+    width: 70%;
+    margin-top: 10px
+}
+div.project2 {
+    background: linear-gradient(rgb(51, 3, 83),black);
+    border: solid black;
+    width: 70%;
+    margin-top: 10px
 }
