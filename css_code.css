@@ -33,10 +33,10 @@ td.navcells {
 /*Home page*/
 h2 {
     text-decoration: underline;
-    font-size: 20px
+    font-size: 22.5px
 }
 ul.whoarewe {
-    font-size: 20px
+    font-size: 25px
 }
 table.members {
     margin-right: 30% ;
@@ -76,15 +76,17 @@ img.memberPhoto_lyndell {
     border: solid white ;
 }
 /*project page*/
+div.projectboxes {
+    position: relative;
+    left: 20%;
+    top: 15% ;
+}
 div.project1 {
     background: linear-gradient(rgb(51, 3, 83),black);
     border: solid white ;
     width: 70%;
     height: 250px ;
     margin-top: 15px ;
-    position: relative;
-    left: 20% ;
-    top: 15%
 }
 div.project2 {
     background: linear-gradient(rgb(51, 3, 83),black);
@@ -92,8 +94,6 @@ div.project2 {
     width: 70%;
     height: 250px;
     margin-top: 15px;
-    position: relative;
-    left: 20%
 }
 div.project3{
     background: linear-gradient(rgb(51, 3, 83),black);
@@ -101,15 +101,12 @@ div.project3{
     width: 70%;
     height: 250px;
     margin-top: 15px;
-    position: relative;
-    left: 20%
 }
 div.forms {
     background: linear-gradient(rgb(51, 3, 83),black);
-    margin-top: 10px;
     border: solid white;
     width: 17% ;
-    height: 400px;
+    height: 375px;
     position: fixed;
-    top: 30%;
+    top: 230px
 }
