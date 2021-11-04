@@ -4,6 +4,7 @@ body {
     background: linear-gradient(rgb(26, 24, 58),black) ;
     color: white;
 }
+/*top heading*/
 header {
     text-align: center;
     text-shadow: 2px 2px 10px white
@@ -20,6 +21,7 @@ p.main_subheading {
 .line {
     color:black
 }
+/*navigator*/
 table.navigation {
     width: 30% ;
     margin-left: 35% ;
@@ -28,18 +30,44 @@ table.navigation {
 td.navcells {
     text-align: center;
 }
+/*Home page*/
 h2 {
     text-decoration: underline;
     font-size: 20px
 }
-p.lyndelldescription {
-    white-space: nowrap ;
+table.members {
+    margin-right: 30% ;
+    margin-left: 0% ;
+    border-collapse: separate ;
+    border-spacing: 40px
 }
-div.forms {
-    border: solid black;
-    width: 17%;
-    margin-top: 10px;
+div.memberbox {
+    border: solid white ;
+    background: linear-gradient(rgb(51, 3, 83),black);
+    height: 600px ;
+    width: 400px ;
+    text-align: center ;
+    font-family: georgia ;
 }
+ul.memberdescription {
+    text-align: left ;
+}
+img.memberPhoto {
+    width: 250px ;
+    height: auto ;
+    border: solid white;
+}
+img.memberPhotolarge {
+    width: 200px ;
+    height: auto ;
+    border: solid white;
+}
+img.gianPhoto {
+    width: 300px ;
+    height: auto;
+    border: solid white ;
+}
+/*project page*/
 div.project1 {
     background: linear-gradient(rgb(51, 3, 83),black);
     border: solid black;
@@ -51,4 +79,9 @@ div.project2 {
     border: solid black;
     width: 70%;
     margin-top: 10px
+}
+div.forms {
+    margin-top: 10px;
+    border: solid black;
+    width: 17% ;
 }
