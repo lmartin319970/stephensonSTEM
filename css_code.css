@@ -35,6 +35,9 @@ h2 {
     text-decoration: underline;
     font-size: 20px
 }
+ul.whoarewe {
+    font-size: 20px
+}
 table.members {
     margin-right: 30% ;
     margin-left: 0% ;
@@ -67,21 +70,46 @@ img.gianPhoto {
     height: auto;
     border: solid white ;
 }
+img.memberPhoto_lyndell {
+    width: 150px ;
+    height: auto ;
+    border: solid white ;
+}
 /*project page*/
 div.project1 {
     background: linear-gradient(rgb(51, 3, 83),black);
-    border: solid black;
+    border: solid white ;
     width: 70%;
-    margin-top: 10px
+    height: 250px ;
+    margin-top: 15px ;
+    position: relative;
+    left: 20% ;
+    top: 15%
 }
 div.project2 {
     background: linear-gradient(rgb(51, 3, 83),black);
-    border: solid black;
+    border: solid white ;
     width: 70%;
-    margin-top: 10px
+    height: 250px;
+    margin-top: 15px;
+    position: relative;
+    left: 20%
+}
+div.project3{
+    background: linear-gradient(rgb(51, 3, 83),black);
+    border: solid white ;
+    width: 70%;
+    height: 250px;
+    margin-top: 15px;
+    position: relative;
+    left: 20%
 }
 div.forms {
+    background: linear-gradient(rgb(51, 3, 83),black);
     margin-top: 10px;
-    border: solid black;
+    border: solid white;
     width: 17% ;
+    height: 400px;
+    position: fixed;
+    top: 30%;
 }
