@@ -4,11 +4,12 @@
     <head>
         <title>Stephenson Engineering and Programming</title>
         <link href="css_code.css" rel="stylesheet" type="text/css" />
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+        <script src="JavaScript_Code.js"></script>
     </head>
 
-    <body>
+    <body class="projects">
         <header>
             <h1 class="main_heading">Stephenson Engineering and Programming</h1>
             <p class="main_subheading">Improving our complex and refining our abilities through automating our everyday lives</p>
@@ -23,6 +24,9 @@
             </tr>
             </table>
         </nav>
+        <div class="loginbutton">
+            <input type="button" value="Login" onclick="openlogin()" id="loginButton">
+        </div>
         <!--Different project(main part of the website)-->
         <div class="projectboxes">
         <div class="project1">
@@ -47,9 +51,11 @@
             Installation included
         </p>
         <form>
-            <input type="text" placeholder="Item" required /><br>
-            <input type="text" placeholder="Name" required /><br>
-            <input type="email" placeholder="Email" /><br>
+            Item: <br>
+            Automated Door Knob: <input type="radio" name="selection" value="automateddoorknob"/><br>
+            Count down Clock: <input type="radio" name="selection" value="countdownclock"/><br>
+            Name: <input type="text" required /><br>
+            Email: <input type="email"/><br>
             <input type="submit" value="SEND" class="sumbit">
         </form>
         </div>
@@ -59,13 +65,24 @@
                 Write us a Request</br>
             </p>
             <form>
-                <input type="text" placeholder="Request" required /><br>
-                <input type="text" placeholder="Name" required /><br>
-                <input type="email" placeholder="Email" /><br>
+                Request: <input type="text" required /><br>
+                Name: <input type="text" required /><br>
+                Email: <input type="email" /><br>
                 <input type="submit" value="SEND" class="sumbit">
             </form>
-            </div>
-            </div>
+        </div>
+        </div>
+        <div class="login" id="login">
+        <table>
+            <tr>
+                <p class="passwordheader">Password</p>
+                <form>
+                    <input type="text" id="passwordentry" required><br>
+                    <input type="button" onclick="passwordverify()" value="Enter">
+                </form>
+            </tr>
+        </table>
+        </div>
         <p>Developed by Lyndell Martin</p>
     </body>
 </html>

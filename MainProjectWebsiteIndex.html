@@ -3,14 +3,16 @@
     <head>
         <title>Stephenson Engineering and Programming</title>
         <link href="css_code.css" rel="stylesheet" type="text/css"/>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+        <script src="JavaScript_Code.js"></script>
     </head>
 
-    <body>
+    <body class="home">
         <header>
             <h1 class="main_heading">Stephenson Engineering and Programming</h1>
-            <p class="main_subheading">Improving our complex and refining our abilities through automating our everyday lives</p>
+            <p class="main_subheading">Improving our complex and 
+                refining our abilities through automating our everyday lives</p>
             <hr class="line">
         </header>
         <nav>
@@ -20,8 +22,11 @@
                     <td class="navcells"><a href="Projects.html">Projects</a></td>
                     <td class="navcells"><a href="Deadlines.html">Deadlines</a></td>
                 </tr>
-                </table>
+            </table>
         </nav>
+        <div class="loginbutton">
+            <input type="button" value="Login" onclick="openlogin()" id="loginbutton">
+        </div>
         <h2>Who are we?</h2>
         <ul class="whoarewe">
             <li>
@@ -141,6 +146,17 @@
                 </td>
             </tr>
         </table>
+        <div class="login" id="login">
+        <table>
+            <tr>
+                <p class="passwordheader">Password</p>
+                <form>
+                    <input type="text" id="passwordentry" required><br>
+                    <input type="button" onclick="passwordverify()" value="Enter">
+                </form>
+            </tr>
+        </table>
+        </div>
         <p>Developed by Lyndell Martin</p>
     </body>
 </html>
