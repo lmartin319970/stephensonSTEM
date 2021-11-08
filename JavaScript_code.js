@@ -14,6 +14,6 @@ function passwordverify(){
         window.location.href = "editorial_page.html"
     }
     else{
-        document.write("Incorrect Password")
+        alert("You input a invalid password!");
     }
 }
