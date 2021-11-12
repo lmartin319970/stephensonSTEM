@@ -11,7 +11,7 @@ function openlogin(){
 function passwordverify(){
     var a = document.querySelector("#passwordentry").value ;
     if(a == "stephep69"){
-        window.location.href = "editorial_page.html"
+        window.location.href = "editorialprojects_page.html"
     }
     else{
         alert("You input a invalid password!");
