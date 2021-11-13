@@ -2,13 +2,17 @@
 <html>
     <head>
         <title>Stephenson Engineering and Programming</title>
-        <link href="css_code.css" rel="stylesheet" type="text/css" />
+        <link href="css_code.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+        <script src="JavaScript_Code.js"></script>
     </head>
 
-    <body>
+    <body class="home">
         <header>
             <h1 class="main_heading">Stephenson Engineering and Programming</h1>
-            <p class="main_subheading">Improving our complex and refining our abilities through automating our everyday lives</p>
+            <p class="main_subheading">Improving our complex and 
+                refining our abilities through automating our everyday lives</p>
             <hr class="line">
         </header>
         <nav>
@@ -18,18 +22,141 @@
                     <td class="navcells"><a href="Projects.html">Projects</a></td>
                     <td class="navcells"><a href="Deadlines.html">Deadlines</a></td>
                 </tr>
-                </table>
+            </table>
         </nav>
-        <h2>Who are we?</h2>
-        <p>Enter your stuff in here Douglass</p>
-        <h2>About Us</h2>
-        <div class="members">
-            <h4>Lyndell Martin</h4>
-            <p class="lyndelldescription">Mechanical Engineering student at Washington State University looking to
-                make an impact through...
-            </p>
-            <h4>Doug Takada</h4>
-            <h4>Nat</h4>
+        <div class="loginbutton">
+            <input type="button" value="Login" onclick="openlogin()" id="loginbutton">
         </div>
+        <h2>Who are we?</h2>
+        <ul class="whoarewe">
+            <li>
+                We design and produce products that serve to automate daily life for Washington State University students.
+            </li>
+            <li>
+                Each product is available for purchase. Cash app or venmo is accepted, installation is included, and arrangements can
+                be made to show you the product before you purchase. (Projects section)
+            </li>
+            <li>
+                Requests for new autmoation machinery are excepted (Projects section)
+            </li>
+        </ul>
+        <h2>About Us</h2>
+        <!--Every member along with their major, description, and photo listed here-->
+        <table class="members">
+            <tr>
+                <td>
+                <div class="memberbox">
+                    <h4>Lyndell Martin</h4>
+                    <h5>Mechanical Engineer</h5>
+                    <ul class="memberdescription">
+                        <li>From Redding, California</li>
+                        <li>Encorporates innovating physcal designs to each automation project</li>
+                        <li>Enjoys creating projects that impacts others in a positive way</li>
+                    </ul>
+                    <img src="photos/memberPhoto8.PNG" alt="(Picture of Lyndell)" class="memberPhoto_lyndell">
+                </div>
+                </td>
+                <td>
+                <div class="memberbox">
+                    <h4>Doug Takada</h4>
+                    <h5>Computer Science</h5>
+                    <ul class="memberdescription">
+                        <li>From Seattle</li>
+                        <li>Interested in circuits and hardware</li>
+                    </ul>
+                    <img link src="photos/memberPhoto7.JPG" alt="(Photo of Douglas)" class="memberPhoto"/>
+                </div>
+                </td>
+                <td>
+                <div class="memberbox">
+                    <h4>Chandler Juego</h4>
+                    <h5>Computer Engineer</h5>
+                    <ul class="memberdescription">
+                        <li>I will have interned for <strong>Microsoft</strong> twice by Summer '22</li>
+                        <li>Hobbies: Workiong out, programming, reading, listening to podcasts,
+                            football</li>
+                        <li>From Guam</li>
+                    </ul>
+                    <img link src="photos/memberPhoto.JPG" alt="(picture of Chandler)" class="memberPhoto"/>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <div class="memberbox">
+                    <h4>Natalie Camerino</h4>
+                    <h5>Food Science</h5> 
+                    <ul class="memberdescription">
+                        <li>From Elk Grove, CA</li>
+                        <li>Freshman at WSU, working on a reasearch project in Dr. Ganjyal</li>
+                        <li>Food Science lab</li>
+                        <li>Bringing high school STEM experience and project managment skills to the team</li>
+                        <li>Love to play volleyball and bake</li>
+                    </ul>
+                    <img link src="photos/memberPhoto2.JPG" alt="(picture of Natalie)" class="memberPhotolarge"/>
+                </div>
+                </td>
+                <td>
+                <div class="memberbox">
+                    <h4>Jack Kroon</h4>
+                    <h5>Electrical Engineer</h5>
+                    <ul class="memberdescription">
+                        <li>EE student from Oregon</il>
+                        <li>Interested in learning about radios and power systems</il>
+                    </ul>
+                    <img link src="photos/memberPhoto4.JPG" alt="(Picture of Jack)" class="memberPhoto"/>
+                </td>
+                <td>
+                <div class="memberbox">
+                    <h4>Gian Roque</h4>
+                    <h5>Mechanical Engineer</h5>
+                    <ul class="memberdescription">
+                        <li>Seattle, Washington</li>
+                        <li>Freshman at WSU</li>
+                        <li>Quick learner hoping to pick up soft and 
+                            specialized skills to aid in projects</li>
+                        <li>I'm also part of WSU's Boys Club Volleyball Team and Resident Hall Association (RHA)!</li>
+                    </ul>
+                    <img link src="photos/memberPhoto6.JPG" alt="(Picture of Gian)" class="gianPhoto"/>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <div class="memberbox">
+                    <h4>Lauren Marquis</h4>
+                    <h5>Mechanical Engineer</h5>
+                    <ul class="memberdescription">
+                        <li>Freshmen at Washington State University</li>
+                        <li>Interested in aeronautics and space travel</li>
+                    </ul>
+                    <img src="photos/memberPhoto5.JPG" alt="(Picture of Lauren)" class="memberPhoto"/>
+                </div>
+                </td>
+                <td>
+                <div class="memberbox">
+                    <h4>Ananay Joshi</h4>
+                    <h5>Computer Science</h5>
+                    <ul class="memberdescription">
+                        <li>Freshman at WSU</li>
+                        <li>Intereseted in exploring more the world of software engineering</li>
+                    </ul>
+                    <img link src="photos/memberPhoto3.JPG" alt="(Picture of Ananay)" class="memberPhoto"/>
+                </div>
+                </td>
+            </tr>
+        </table>
+        <div class="login" id="login">
+        <table>
+            <tr>
+                <p class="passwordheader">Password</p>
+                <form>
+                    <input type="text" id="passwordentry" required><br>
+                    <input type="button" onclick="passwordverify()" value="Enter">
+                </form>
+            </tr>
+        </table>
+        </div>
+        <p>Developed by Lyndell Martin</p>
     </body>
 </html>
