@@ -6,7 +6,27 @@
         <link href="css_code.css" rel="stylesheet" type="text/css" />
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=0.75">
-        <script src="JavaScript_Code.js" type="text/javascript" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            function openlogin(){
+    var loginScreen = document.getElementById('login');
+    var displaySetting = login.style.display;
+    if (displaySetting == 'block') {
+        loginScreen.style.display = 'none';
+    }
+    else{
+        loginScreen.style.display = 'block';
+    }
+}
+function passwordverify(){
+    var a = document.querySelector("#passwordentry").value ;
+    if(a == "stephep69"){
+        window.location.href = "editorialprojects_page.html"
+    }
+    else{
+        alert("You input a invalid password!");
+    }
+}
+        </script>
     </head>
 
     <body class="projects">
